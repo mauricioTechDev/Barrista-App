@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="profile.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>Barista <%= user.local.email %></h1>
+    <h4> <a href="/logout">CLICK: BACK TO ORDER PAGE</a></h4>
+    <ul>
+      <h2>Coffee in the Queue</h2>
+      <% for(let i =0;i<orders.length;i++){ %>
+      <li>
+          <span><%= orders[i].name %></span>
+          <span><%= orders[i].order %></span>
+      </li>
+      <% } %>
+    </ul>
+    <section>
+      <h3 class="completeList">Coffee Completed:</h3>
+    </section>
+    <script src="profile.js" charset="utf-8"></script>
+  </body>
+</html>

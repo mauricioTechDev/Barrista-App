@@ -1,0 +1,56 @@
+body{
+  background-image: url("img/colombiaCoffee.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+section{
+  text-align: center;
+}
+h1{
+  font-size: 178px;
+    color: yellow;
+    font-weight: bolder;
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    margin: 0% 1% 0% 1%;
+}
+.adminLogin {
+  margin: 1% 1% 1% 63%;
+text-align: right;
+background-color: #00199587;
+padding: 1% 5% 1% 0%;
+border-radius: 13%;
+
+}
+p{
+  color: yellow;
+font-weight: bolder;
+font-family: fantasy;
+font-size: 33px;
+    margin: 0% 0% 0% 0%;
+}
+
+label{
+  color: yellow;
+font-weight: bolder;
+font-family: fantasy;
+font-size: 33px;
+}
+.orderInput{
+  margin: 10% 1% 7% 1%;
+  text-align: initial;
+  width: 51%;
+}
+input{
+  height: 59px;
+    border-radius: 8%;
+    width: 59%;
+    font-size: 25px;
+}
+button{
+  height: 59px;
+    /* border-radius: 8%; */
+    width: 17%;
+    font-size: 20px;
+}

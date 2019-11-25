@@ -22,7 +22,6 @@
 
 1. run `node server.js`
 2. Navigate to `localhost:4000`
-3. email: Mauricio pass: 212121
 3. Have fun ;)
 
 ## Credit
